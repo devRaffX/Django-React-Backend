@@ -93,10 +93,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-CORS_ALLOW_ALL_ORIGINS = [
-    'http://localhost:5173/'
-]
-
 STATIC_ROOT = BASE_DIR/'staticfiles'
 
 
