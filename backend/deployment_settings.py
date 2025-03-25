@@ -25,9 +25,7 @@ MIDDLEWARE = [
     
 ]
 
-CORS_ALLOW_ALL_ORIGINS = [
-    'https://django-react-frontend-ygh2.onrender.com'
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 STORAGES = {
     "default": {
